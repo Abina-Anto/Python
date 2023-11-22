@@ -1,0 +1,5 @@
+f1=open("file.txt","r+")
+print(f1.read())
+f1.write("world")
+data=f1.read()
+print(data)
