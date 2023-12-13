@@ -1,0 +1,7 @@
+import csv
+with open('newfile.csv', 'w', newline='') as file:
+    writer = csv.writer(file)
+    writer.writerow(["rollno", "Name", "Course"])
+    writer.writerow([1, "Abhijith ks", "MCA"])
+    writer.writerow([2, "Abina", "MCA"])
+    writer.writerow([3, "kanjuttan", "MCA"])
